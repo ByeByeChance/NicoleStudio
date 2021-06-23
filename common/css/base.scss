@@ -1,0 +1,63 @@
+/* 
+	Author: Chance by 2021/1/31
+	Email: 17621431@qq.com
+ */
+
+@charset "utf-8";
+
+$mainColor: #000000; // Main color
+
+/* Base font size */
+$length1: 1 * 2rpx;
+$fontsize10: $length1 * 10;
+$fontsize12: $length1 * 12;
+$fontsize13: $length1 * 13;
+$fontsize14: $length1 * 14;
+$fontsize16: $length1 * 16;
+$fontsize18: $length1 * 18;
+$fontsize20: $length1 * 20;
+$fontsize22: $length1 * 22;
+$fontsize24: $length1 * 24;
+
+/* Base color */
+$color000: #000000;
+$color333: #333333;
+$color666: #666666;
+$color999: #999999;
+$colorfff: #ffffff;
+$colorGray: #e6e6e6;
+
+/* Horizontal spacing */
+$spacing-row-sm: $length1 * 10;
+$spacing-row-base: $length1 * 15;
+$spacing-row-lg: $length1 * 30;
+
+/* Vertical spacing */
+$spacing-col-sm: 8px;
+$spacing-col-base: 16px;
+$spacing-col-lg: 24px;
+
+/* aBOUT border */
+$borer-width: $length1;
+$border-color: #000000;
+$border-color-gray: #efefef;
+
+/* Background color */
+$content-bg-color: #f4f4f4; // Default background color
+$home-tabbar-bg-color: #000000;
+$per-sale-bg-color: #85A751;
+$limit-bg-color: #BD9E6C;
+$buy-btn-bg-color: #BD9E6C;
+$settlement-bg-color: #85A751;
+$order-btn-color-red: #961D12;
+
+/* Text color */
+$title-color: #85A751;
+$tips-color: #85A751;
+$limit-color: #BD9E6C;
+$placeholder-color: #cecece;
+
+/* About navigation */
+$navigationBarTextFont: 18px;
+$topNavigationBarHeight: 44px; // Navigation`s height
+$navigationBarText: #000000;

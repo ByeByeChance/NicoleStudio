@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+// 居中盒子
+@mixin flex-box-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// 两端对齐盒子
+@mixin flex-box-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// start盒子
+@mixin flex-box-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+// 主轴纵向排列 横轴居中盒子
+@mixin flex-box-direction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// 超出部分省略
+@mixin text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+// 只显示两行超出部分省略
+@mixin line-clamp-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
+@mixin border-bottom-1px {
+	// background: $colorfff svg(square param(--color #efefef)) repeat-x left bottom;
+	// background-size: 100% 1px;
+	border-bottom: 1px solid #efefef;
+}

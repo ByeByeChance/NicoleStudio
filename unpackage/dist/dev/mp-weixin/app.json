@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classification/classification",
+    "pages/shoppingCar/shoppingCar",
+    "pages/personal/personal",
+    "pages/register/register",
+    "pages/register/registerSuccess/registerSuccess",
+    "pages/goods/goods",
+    "pages/order/order"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "NICOLE STUDIO",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#ffffff",
+    "selectedColor": "#ffffff",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/imgs/icon/home.png",
+        "selectedIconPath": "static/imgs/icon/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "iconPath": "static/imgs/icon/classification.png",
+        "selectedIconPath": "static/imgs/icon/classification-active.png",
+        "text": "全部商品"
+      },
+      {
+        "pagePath": "pages/shoppingCar/shoppingCar",
+        "iconPath": "static/imgs/icon/cart.png",
+        "selectedIconPath": "static/imgs/icon/cart-active.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "static/imgs/icon/mine.png",
+        "selectedIconPath": "static/imgs/icon/mine-active.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap53.json"
+}

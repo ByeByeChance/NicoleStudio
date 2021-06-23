@@ -1,0 +1,80 @@
+/* 
+	Author: Chance by 2021/1/31
+	Email: 17621431@qq.com
+ */
+/* Base font size */
+/* Base color */
+/* Horizontal spacing */
+/* Vertical spacing */
+/* aBOUT border */
+/* Background color */
+/* Text color */
+/* About navigation */
+.classification-box.data-v-7f183394 {
+  position: relative;
+}
+.classification-box .classification-list.data-v-7f183394 {
+  padding-bottom: 60rpx;
+}
+.classification-box .classification-list .classification-title.data-v-7f183394 {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 36rpx;
+  height: 180rpx;
+  line-height: 180rpx;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAACWAgMAAABV85L8AAAACVBMVEUAAAAAAAAWFBSvvDUqAAAAAXRSTlPw/VsqegAAAhVJREFUeNrt2k2S2yAQBeBcUiw4Qt+HWWSPq+hTRvAUaQKWpRiRzmheV9n8dfW3tKXmh21MlkH9ZFCnTv1eumgZnMYm11d77Xl4Q1cNbv6IalZBrIv8pSireU9L5BNRLavslgzV1Kl7VV2kUOmujK2eoJfzTl0yASlWui9Sq2uA7vP0HT2uOqpBqnTZ0yN0ydMeHVSEpJVepH29zFO/nl7o4YmertI9SizSH7o70HH+73Xt1NNvXUqJRYp/pXucD9Wjke739XCdLtAfT/SPA/1nn56nfqk2T2t9eqInWfIFu2/o2qH7oTpKQl/X1O+hf1A/0IOtPg92ejTV0yD9cUpXIx2qBlM9fj99/WeVxuh6qCNtuJ53d/VgqkczXSx1PNea6mqmO0sdecFMF1PdK9Y2ujPVp0H6Q49+4/4DXUx1P+/Z6c5O9/Mx9av1eFIX6tTvogv1VlctX3G8jvJZ2dP1iS7X6O0b8loPn/Wk/W/IW12ha63ncdXBpmu6A9Gf1eN99aojtq8LEtuO2CB9avU4Qt/6sK0edvUyT126e6HLZ91joSB79Z0OeKNPi+4avb8DDn17ZNv06t3Fkgg9Xtb9lyygeKh0hxE6EqGHzpsPce/WB/RtL6wZGYSetkUadOOl3Wspr+Fr3/Z5FdSpU6dOnTp16tSpU6dOnfr5oE6dOnXq1KlTp06dOnXq1M8Hdep30E3jFzck1zWAq4wsAAAAAElFTkSuQmCC);
+  background-size: cover;
+}
+.classification-box .classification-list .goods-box.data-v-7f183394 {
+  position: relative;
+  padding: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.classification-box .classification-list .goods-box .goods-item.data-v-7f183394 {
+  width: 46%;
+  height: 600rpx;
+  margin-bottom: 40rpx;
+}
+.classification-box .classification-list .goods-box .goods-item.data-v-7f183394:nth-child(odd) {
+  margin-right: 4%;
+}
+.classification-box .classification-list .goods-box .goods-item.data-v-7f183394:nth-child(even) {
+  margin-left: 4%;
+}
+.classification-box .classification-list .goods-box .goods-item .goods-cover.data-v-7f183394 {
+  width: 100%;
+  height: 400rpx;
+}
+.classification-box .classification-list .goods-box .goods-item .goods-content.data-v-7f183394 {
+  padding: 10rpx;
+  height: 200rpx;
+  position: relative;
+}
+.classification-box .classification-list .goods-box .goods-item .goods-content .goods-name.data-v-7f183394 {
+  font-size: 26rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.classification-box .classification-list .goods-box .goods-item .goods-content .goods-price.data-v-7f183394 {
+  position: absolute;
+  right: 10rpx;
+  bottom: 30rpx;
+  font-weight: bold;
+  text-align: right;
+}
+.classification-box .classification-list .more-box.data-v-7f183394 {
+  text-align: center;
+}
+.classification-box .classification-list .more-box .more.data-v-7f183394 {
+  color: #000000;
+  border: 2rpx solid #000000;
+  display: inline-block;
+  padding: 10rpx 60rpx;
+}
+

@@ -1,0 +1,14 @@
+@charset "utf-8";
+@import './param.scss';
+@import './mixin.scss';
+page {
+	height: 100%;
+	// background-color: $contentBgcolor;
+	font-family: -apple-system-font, Arial, Helvetica, sans-serif;
+	font-size: $fontsize14;
+	color: #333;
+}
+
+.container {
+	font-size: $fontsize14;
+}

@@ -1,0 +1,98 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "NICOLE STUDIO"
+			}
+		}
+	    ,{
+            "path" : "pages/classification/classification",
+            "style" : {
+				"navigationBarTitleText": "全部商品"
+			}
+        }
+	    ,{
+            "path" : "pages/shoppingCar/shoppingCar",
+            "style" : {
+				"navigationBarTitleText": "购物车"
+			}
+        }
+        ,{
+            "path" : "pages/personal/personal",
+            "style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#f4f4f4",
+				"usingComponents": {
+					"van-radio": "/wxcomponents/vant/dist/radio/index",
+					"van-radio-group": "/wxcomponents/vant/dist/radio-group/index",
+					"van-datetime-picker": "/wxcomponents/vant/dist/datetime-picker/index",
+					"van-icon": "/wxcomponents/vant/dist/icon/index"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/registerSuccess/registerSuccess",
+            "style" : {
+				"navigationBarTitleText": "注册成功"
+			}
+        }
+        ,{
+            "path" : "pages/goods/goods",
+            "style" : {
+				"navigationBarTitleText": "商品详情"
+			}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "我的订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#ffffff",
+		"selectedColor": "#ffffff",
+		"backgroundColor": "#000000",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/imgs/icon/home.png",
+			"selectedIconPath": "static/imgs/icon/home-active.png",
+			"text": "首页"
+		},{
+			"pagePath": "pages/classification/classification",
+			"iconPath": "static/imgs/icon/classification.png",
+			"selectedIconPath": "static/imgs/icon/classification-active.png",
+			"text": "全部商品"
+		},{
+			"pagePath": "pages/shoppingCar/shoppingCar",
+			"iconPath": "static/imgs/icon/cart.png",
+			"selectedIconPath": "static/imgs/icon/cart-active.png",
+			"text": "购物车"
+		},{
+			"pagePath": "pages/personal/personal",
+			"iconPath": "static/imgs/icon/mine.png",
+			"selectedIconPath": "static/imgs/icon/mine-active.png",
+			"text": "个人中心"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "NICOLE STUDIO",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"debug": true
+}

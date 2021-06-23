@@ -1,0 +1,45 @@
+/* 
+	Author: Chance by 2021/1/31
+	Email: 17621431@qq.com
+ */
+/* Base font size */
+/* Base color */
+/* Horizontal spacing */
+/* Vertical spacing */
+/* aBOUT border */
+/* Background color */
+/* Text color */
+/* About navigation */
+.swiper-box .swiper.data-v-3c694d78 {
+  height: 900rpx;
+}
+.swiper-box .swiper-img.data-v-3c694d78 {
+  width: 100%;
+  height: 100%;
+}
+.swiper-box .wx-swiper-dots.wx-swiper-dots-horizontal.data-v-3c694d78 {
+  margin-bottom: 2rpx;
+}
+.swiper-box .wx-swiper-dot.data-v-3c694d78 {
+  width: 50rpx;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  height: 5rpx;
+  margin-left: 1rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.swiper-box .wx-swiper-dot.data-v-3c694d78::before {
+  content: '';
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+          flex-grow: 1;
+  border-radius: 8rpx;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.swiper-box .wx-swiper-dot-active.data-v-3c694d78::before {
+  background: #ffffff;
+}
+

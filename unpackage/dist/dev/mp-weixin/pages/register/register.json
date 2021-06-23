@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "注册",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#f4f4f4",
+  "usingComponents": {
+    "van-radio": "/wxcomponents/vant/dist/radio/index",
+    "van-radio-group": "/wxcomponents/vant/dist/radio-group/index",
+    "van-datetime-picker": "/wxcomponents/vant/dist/datetime-picker/index",
+    "van-icon": "/wxcomponents/vant/dist/icon/index"
+  }
+}

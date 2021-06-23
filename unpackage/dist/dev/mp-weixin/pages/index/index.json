@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "NICOLE STUDIO",
+  "usingComponents": {
+    "index-classification": "/components/indexClassification/indexClassification",
+    "swiper": "/components/swiper/swiper"
+  }
+}

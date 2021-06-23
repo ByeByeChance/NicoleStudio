@@ -1,0 +1,136 @@
+/* 
+	Author: Chance by 2021/1/31
+	Email: 17621431@qq.com
+ */
+/* Base font size */
+/* Base color */
+/* Horizontal spacing */
+/* Vertical spacing */
+/* aBOUT border */
+/* Background color */
+/* Text color */
+/* About navigation */
+.register-box.data-v-891c2434 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 28rpx;
+  background-color: #f4f4f4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-top: 60rpx;
+}
+.register-box .head-img.data-v-891c2434 {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.register-box .company-name.data-v-891c2434 {
+  font-weight: bold;
+  font-size: 32rpx;
+  margin-top: 40rpx;
+  margin-bottom: 60rpx;
+}
+.register-box .btn-wrap.data-v-891c2434 {
+  display: block;
+  width: 80%;
+}
+.register-box .weixin-login.data-v-891c2434 {
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 50rpx;
+}
+.register-box .input-list.data-v-891c2434 {
+  width: 65%;
+}
+.register-box .input-list .input-item.data-v-891c2434 {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-bottom: 20rpx;
+}
+.register-box .input-list .input-item input.data-v-891c2434 {
+  font-size: 28rpx;
+  height: 80rpx;
+  border-bottom: 2rpx solid #000000;
+}
+.register-box .input-list .input-item input.data-v-891c2434:placeholder {
+  color: #cecece;
+}
+.register-box .input-list .input-item .label.data-v-891c2434 {
+  position: absolute;
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 100rpx;
+  color: #000000;
+  font-weight: bold;
+}
+.register-box .input-list .input-item .radio-box.data-v-891c2434 {
+  padding-left: 120rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.register-box .input-list .input-item .radio-box .radio-item.data-v-891c2434 {
+  display: inline-block;
+  position: relative;
+  padding-left: 50rpx;
+  margin-right: 30rpx;
+}
+.register-box .input-list .input-item .radio-box .radio-item .radio-select.data-v-891c2434 {
+  position: absolute;
+  top: 25rpx;
+  left: 0;
+  height: 30rpx;
+  width: 30rpx;
+  border: 2rpx solid #000000;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.register-box .input-list .input-item .radio-box .radio-item .radio-select.active.data-v-891c2434::after {
+  content: ' ';
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  border-radius: 50%;
+  background-color: #000000;
+}
+.register-box .input-list .input-item .date-select-cell.data-v-891c2434 {
+  position: relative;
+  border-bottom: 2rpx solid #000000;
+}
+.register-box .input-list .input-item .date-select-cell .date-select-icon.data-v-891c2434 {
+  position: absolute;
+  top: 24rpx;
+  right: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.register-box .input-list .input-item .register-btn.data-v-891c2434 {
+  width: 70%;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #ffffff;
+  font-size: 28rpx;
+  background-color: #000000;
+  border-radius: 40rpx;
+  margin-top: 110rpx;
+}
+
