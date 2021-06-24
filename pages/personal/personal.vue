@@ -5,7 +5,7 @@
 			<view class="nickname">{{userInfo.name}}</view>
 		</view>
 		<view class="list">
-			<view class="list-item" @tap="jump('order')">订单中心</div>
+			<view class="list-item" @tap="jump('order')">订单中心</view>
 			<view class="list-item">我的预约</view>
 			<view class="list-item">我的地址</view>
 			<view class="list-item">我的客服</view>
