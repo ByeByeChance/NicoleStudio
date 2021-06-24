@@ -21,17 +21,17 @@
 				<input type="number" v-model="registerData.phone" placeholder="手机号码" />
 			</view>
 			<view class="input-item">
-				<div class="label">性别</div>
-				<div class="radio-box">
-					<div class="radio-item" @click="registerData.sex = '0'">
-						<span class="radio-select" :class="registerData.sex === '0' ? 'active' : ''"></span>
-						<span class="radio-name">男</span>
-					</div>
-					<div class="radio-item" @click="registerData.sex = '1'">
-						<span class="radio-select" :class="registerData.sex === '1' ? 'active' : ''"></span>
-						<span class="radio-name">女</span>
-					</div>
-				</div>
+				<view class="label">性别</view>
+				<view class="radio-box">
+					<view class="radio-item" @click="registerData.sex = '0'">
+						<view class="radio-select" :class="registerData.sex === '0' ? 'active' : ''"></view>
+						<view class="radio-name">男</view>
+					</view>
+					<view class="radio-item" @click="registerData.sex = '1'">
+						<view class="radio-select" :class="registerData.sex === '1' ? 'active' : ''"></view>
+						<view class="radio-name">女</view>
+					</view>
+				</view>
 			</view>
 			<view class="input-item" style="margin-bottom: 0;">
 				<div class="label">生日</div>
