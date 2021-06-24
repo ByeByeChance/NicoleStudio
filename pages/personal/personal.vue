@@ -1,15 +1,15 @@
 <template>
 	<view class="personal-box">
-		<div class="personal-header">
-			<div class="head-img"></div>
-			<div class="nickname">{{userInfo.name}}</div>
-		</div>
-		<div class="list">
-			<div class="list-item" @tap="jump('order')">订单中心</div>
-			<div class="list-item">我的预约</div>
-			<div class="list-item">我的地址</div>
-			<div class="list-item">我的客服</div>
-		</div>
+		<view class="personal-header">
+			<view class="head-img"></view>
+			<view class="nickname">{{userInfo.name}}</view>
+		</view>
+		<view class="list">
+			<view class="list-item" @tap="jump('order')">订单中心</div>
+			<view class="list-item">我的预约</view>
+			<view class="list-item">我的地址</view>
+			<view class="list-item">我的客服</view>
+		</view>
 	</view>
 </template>
 
