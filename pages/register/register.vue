@@ -46,9 +46,9 @@
 					<van-icon name="play" class="date-select-icon" />
 				</view>
 			</view>
-			<div class="input-item">
+			<view class="input-item">
 				<button class="register-btn" @tap="register">注册</button>
-			</div>
+			</view>
 		</view>
 	</view>
 </template>
