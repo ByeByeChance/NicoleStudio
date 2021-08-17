@@ -6,7 +6,6 @@
 			<label for='wxlogin' class="btn-wrap">
 				<view class="weixin-login">微信用户一键登录</view>
 			</label>
-			
 			<button
 				id='wxlogin'
 				open-type="getPhoneNumber"
